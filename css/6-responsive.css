@@ -1,0 +1,80 @@
+@media (max-width: 992px) {
+    .col-md-6 { grid-column: span 6; } 
+    .col-md-12 { grid-column: span 12; }
+}
+
+@media (max-width: 768px) {
+    
+    .menu-toggle-label {
+        display: block; 
+    }
+
+    .menu-toggle-label span,
+    .menu-toggle-label span::before,
+    .menu-toggle-label span::after {
+        display: block;
+        width: 25px;
+        height: 3px;
+        background-color: var(--cor-texto);
+        position: relative;
+        transition: transform 0.3s ease;
+    }
+    .menu-toggle-label span::before,
+    .menu-toggle-label span::after {
+        content: '';
+        position: absolute;
+    }
+    .menu-toggle-label span::before { top: -8px; }
+    .menu-toggle-label span::after { top: 8px; }
+
+
+    .navbar-menu {
+        display: none; 
+        position: absolute;
+        top: 100%; 
+        left: 0;
+        width: 100%;
+        background: var(--cor-branco);
+        flex-direction: column; 
+        align-items: flex-start;
+        padding: var(--space-2);
+        box-shadow: var(--shadow-padrao);
+    }
+    
+    .menu-toggle-cb:checked ~ .navbar-menu {
+        display: flex;
+    }
+    
+    .dropdown { width: 100%; }
+    .submenu {
+        position: static; 
+        box-shadow: none;
+        padding-left: var(--space-3); 
+    }
+
+
+    .col-sm-12 { grid-column: span 12; }
+
+    .secao-destaque .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-grupo-duplo {
+        grid-template-columns: 1fr; 
+    }
+}
+
+@media (max-width: 576px) {
+    :root {
+        --fs-h1: 2.5rem;
+        --fs-h2: 1.75rem;
+    }
+    .container {
+        padding-top: var(--space-4);
+        padding-bottom: var(--space-4);
+    }
+    .form-cadastro {
+        padding: var(--space-3);
+    }
+}
