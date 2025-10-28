@@ -22,7 +22,7 @@ export const projetosView = `
 
                     <div class="col-4 col-md-6 col-sm-12">
                         <div class="card-projeto">
-                            <img src="imagens/projeto-reciclagem.jpg" alt="Três lixeiras coloridas...">
+                            <img src="imagens/projeto-reciclagem.webp" alt="Três lixeiras coloridas...">
                             <div class="card-conteudo">
                                 <span class="badge badge-reciclagem">Reciclagem</span>
                                 <h3>Reciclagem Consciente</h3>
@@ -49,7 +49,7 @@ export const projetosView = `
             <section id="voluntariado" class="secao-destaque">
                 <div class="row">
                     <div class="col-6 col-md-12">
-                        <img src="imagens/banner-voluntariado.jpg" alt="Um grupo diverso de voluntários sorrindo...">
+                        <img src="imagens/banner-voluntariado.avif" alt="Um grupo diverso de voluntários sorrindo...">
                     </div>
                     <div class="col-6 col-md-12">
                         <h2>Seja um Voluntário</h2>
