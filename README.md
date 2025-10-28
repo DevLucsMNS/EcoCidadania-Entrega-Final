@@ -2,9 +2,9 @@
 
 Projeto final da disciplina de Desenvolvimento Front-end, focado na construção de uma plataforma web completa para a ONG fictícia EcoCidadania. O projeto evoluiu de um site HTML estático para uma Single Page Application (SPA) dinâmica, interativa e otimizada, seguindo práticas profissionais de desenvolvimento.
 
-**Aluno:** Lucas M. N. S. (Seu Nome)
+**Aluno:** Lucas Moreira
 
-**[Link do Repositório da Atividade 3 (JS)]** - **[Link do Repositório da Atividade 2 (CSS)]** - **[Link do Repositório da Atividade 1 (HTML)]**
+**https://github.com/DevLucsMNS/EcoCidadania-JS** - **https://github.com/DevLucsMNS/EcoCidadania-CSS** - **https://github.com/DevLucsMNS/projeto-ong-ecocidadania**
 
 ---
 
