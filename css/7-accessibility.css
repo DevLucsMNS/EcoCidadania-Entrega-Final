@@ -1,0 +1,15 @@
+[data-theme="dark"] {
+    --cor-fundo: #121212;
+    --cor-texto: #FAFAFA;
+    --cor-branco: #222222;
+    --cor-primaria-clara: #333;
+    
+    --cor-primaria-escura: #33FFBB;
+    --cor-secundaria: #559FFF;
+    --cor-acento-doar: #FFF500;
+    --cor-acento-voluntario: #FF9F44;
+}
+
+body, .card-projeto, .nossos-pilares article, .form-cadastro {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
