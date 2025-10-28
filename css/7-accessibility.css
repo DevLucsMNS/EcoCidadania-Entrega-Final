@@ -13,3 +13,8 @@
 body, .card-projeto, .nossos-pilares article, .form-cadastro {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
+:focus-visible {
+    outline: 3px solid var(--cor-secundaria); 
+    outline-offset: 2px;
+    border-radius: var(--border-radius-padrao);
+}
